@@ -12,8 +12,6 @@ class CountdownTimer {
 }
 
   start() {
-    const z = document.querySelector(this.selector);
-console.log(z);
     const finalDate = this.targetDate.getTime();
     const timerId = setInterval(()=>{
     const date = Date.now();

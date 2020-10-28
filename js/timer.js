@@ -1,5 +1,3 @@
-'use strict';
-
 const refs = {
   dayCounter: document.querySelector('[data-value="days"]'),
   hoursCounter : document.querySelector('[data-value="hours"]'),

@@ -1,7 +1,11 @@
 'use strict';
-import getRefs from '/js/refs.js'
 
-const refs = getRefs()
+const refs = {
+  dayCounter: document.querySelector('[data-value="days"]'),
+  hoursCounter : document.querySelector('[data-value="hours"]'),
+  minutesCounter: document.querySelector('[data-value="mins"]'),
+  secondsCounter: document.querySelector('[data-value="secs"]'),
+  };
 
 class CountdownTimer {
   constructor({selector='',targetDate=''}={}) {
